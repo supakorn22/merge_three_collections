@@ -14,8 +14,18 @@ and provide how to setup dependency and execute code and unit test
 Note: Don't allow to use any sort function
 
 
-**Project Structure**
 
+## Setup
+
+To set up the project, install all dependencies by running:
+
+```powershell
+npm install
+```
+
+This will install TypeScript, Jest, and other required packages as defined in `package.json`.
+
+**Project Structure**
     - `src/` — Contains the main TypeScript source files (`index.ts`, `merge.ts`).
     - `test/` — Contains unit tests (`merge.test.ts`).
     - `package.json` — Project metadata and scripts.
