@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Output of TypeScript build
+dist/
+build/
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Jest coverage output
+coverage/
+
+# Environment files
+.env
+.env.test
+.env.local
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
